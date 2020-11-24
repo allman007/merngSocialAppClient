@@ -7,7 +7,7 @@ import { ApolloProvider } from "@apollo/react-hooks";
 import { setContext } from "apollo-link-context";
 
 const httpLink = createHttpLink({
-  uri: "http://localhost:5000",
+  uri: "https://merngsocialappserverside.herokuapp.com/",
 });
 
 // To eable the user post a comment, bcus witout Authorization d user cnt post
